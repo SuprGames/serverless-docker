@@ -6,3 +6,4 @@ LABEL homepage="https://github.com/SuprGames/suprgames.serverless-docker"
 LABEL maintainer="Diego Marzo"
 
 RUN npm i -g serverless@1.77
+ENTRYPOINT ["serverless"]
